@@ -32,6 +32,7 @@ body main {
   display: flex;
   align-items: center;
   margin-top: 15%;
+  flex-direction: column;
 }
 body main #inicio {
   display: flex;
@@ -66,6 +67,78 @@ body main #inicio .foto-de-inicio img {
   border-radius: 180px;
   margin-left: 120px;
   margin-top: 50px;
+}
+body main #sobre-mi {
+  display: flex;
+  width: 1100px;
+  height: 350px;
+  margin-top: 300px;
+  border: rgb(138, 138, 138) 1px solid;
+  border-radius: 20px;
+  padding: 30px;
+}
+body main #sobre-mi .textos-de-sobre-mi {
+  max-width: 450px;
+}
+body main #sobre-mi .textos-de-sobre-mi .titulo-sobre-mi h3 {
+  color: rgb(222, 222, 222);
+  font-weight: 600px;
+  font-size: 60px;
+  margin: unset;
+}
+body main #sobre-mi .textos-de-sobre-mi .informacion-sobre-mi p {
+  margin-top: 20px;
+  color: rgb(138, 138, 138);
+  font-size: 16px;
+}
+body main #sobre-mi .tecnologias {
+  margin-left: 60px;
+}
+body main #sobre-mi .tecnologias h3 {
+  color: rgb(222, 222, 222);
+  font-weight: 600px;
+  font-size: 60px;
+  margin: unset;
+  margin-left: 90px;
+}
+body main #sobre-mi .tecnologias p {
+  font-weight: 400;
+  color: rgb(78, 78, 78);
+  font-size: 14px;
+  max-width: 350px;
+  text-align: center;
+  margin-left: 70px;
+}
+body main #sobre-mi .tecnologias .imagenes-tecnologia {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: 10px;
+  max-width: 500px;
+}
+body main #sobre-mi .tecnologias .imagenes-tecnologia .html img {
+  height: 40px;
+  width: 90px !important;
+}
+body main #sobre-mi .tecnologias .imagenes-tecnologia .boostrap img {
+  height: 50px;
+  width: 50px !important;
+}
+body main #sobre-mi .tecnologias .imagenes-tecnologia .imagenes {
+  display: flex;
+  background-color: white;
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  margin-left: 35px;
+  margin-top: 30px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body main #sobre-mi .tecnologias .imagenes-tecnologia .imagenes img {
+  height: 50px;
+  width: 50px;
 }
 
 /*# sourceMappingURL=main.css.map */
