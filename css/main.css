@@ -53,12 +53,12 @@ body main #inicio .textos-del-inicio .texto-inicio p {
   font-size: 18px;
   color: rgb(138, 138, 138);
 }
-body main #inicio .textos-del-inicio .iconos-de-inicio img {
+body main #inicio .textos-del-inicio .iconos-de-inicio a img {
   z-index: 2;
   height: 40px;
   width: 40px;
 }
-body main #inicio .textos-del-inicio .iconos-de-inicio .segunda-imagen {
+body main #inicio .textos-del-inicio .iconos-de-inicio a .segunda-imagen {
   margin-left: 15px;
 }
 body main #inicio .foto-de-inicio img {
@@ -139,6 +139,81 @@ body main #sobre-mi .tecnologias .imagenes-tecnologia .imagenes {
 body main #sobre-mi .tecnologias .imagenes-tecnologia .imagenes img {
   height: 50px;
   width: 50px;
+}
+body main #proyectos {
+  margin-top: 250px;
+}
+body main #proyectos h3 {
+  color: rgb(222, 222, 222);
+  font-weight: 600px;
+  font-size: 60px;
+  margin: unset;
+}
+body main #proyectos .proyecto1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1100px;
+  height: 280px;
+  border: rgb(138, 138, 138) 1px solid;
+  margin-top: 50px;
+  border-radius: 20px;
+  padding: 20px;
+}
+body main #proyectos .proyecto1 .textos {
+  width: 450px;
+}
+body main #proyectos .proyecto1 .textos h4 {
+  color: rgb(222, 222, 222);
+  font-weight: 600px;
+  font-size: 45px;
+  margin: unset;
+}
+body main #proyectos .proyecto1 .textos .proyecto2 {
+  font-size: 40px;
+}
+body main #proyectos .proyecto1 .textos p {
+  margin-top: 20px;
+  color: rgb(138, 138, 138);
+  font-size: 16px;
+}
+body main #proyectos .proyecto1 .textos a {
+  color: rgb(185, 185, 185);
+}
+body main #proyectos .proyecto1 .textos .gh {
+  margin-left: 10px;
+}
+body main #proyectos .proyecto1 .textos .tecnologias-trabajadas-proyecto1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+body main #proyectos .proyecto1 .textos .tecnologias-trabajadas-proyecto1 p {
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 12px;
+  color: white;
+}
+body main #proyectos .proyecto1 .textos .tecnologias-trabajadas-proyecto1 .tx {
+  margin-left: 10px;
+}
+body main #proyectos .proyecto1 .textos .tecnologias-trabajadas-proyecto1 .blue {
+  background-color: rgb(67, 67, 236);
+}
+body main #proyectos .proyecto1 .textos .tecnologias-trabajadas-proyecto1 .orange {
+  background-color: rgb(235, 134, 53);
+}
+body main #proyectos .proyecto1 .textos .tecnologias-trabajadas-proyecto1 .yellow {
+  background-color: rgb(190, 133, 27);
+}
+body main #proyectos .imagen-del-proyecto1 {
+  display: flex;
+  justify-content: flex-end;
+}
+body main #proyectos .imagen-del-proyecto1 img {
+  border-radius: 20px;
+  margin-left: 30px;
+  width: 500px;
 }
 
 /*# sourceMappingURL=main.css.map */
