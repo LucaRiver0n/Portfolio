@@ -34,6 +34,11 @@ body{
                         z-index: 2;
                         height: 40px;
                         width: 40px;
+                        transition: 0.2s ease;
+                        &:hover{
+                            transition: 0.2s ease;
+                            transform: scale(1.1);
+                        }
                         
 
                     }
@@ -55,6 +60,11 @@ body{
                     margin-top: 50px;
                 }
             }
+            #sobree{
+                width: 10px;
+                height: 10px;
+                margin-top: 500px;
+            }
         }
 
         // -----SEGUNDA PARTE DE LA PAGINA (SOBRE MI) ------------------------------------
@@ -62,10 +72,11 @@ body{
             display: flex;
             width: 1100px;
             height: 350px;
-            margin-top: 300px;
+            margin-top: 200px;
             border: rgb(138,138,138) 1px solid;
             border-radius: 20px;
             padding: 30px;
+           
 
             .textos-de-sobre-mi{
                 max-width: 450px;
@@ -224,6 +235,93 @@ body{
                     margin-left: 30px;
                     width: 500px;
                     
+
+                }
+            }
+        }
+        #otrosProyectos{
+            display: flex;
+            margin-top: 150px;
+            flex-direction: column;
+            width: 1100px;
+            h4{
+                color: rgb(222,222,222);
+                        font-weight: 600px;
+                        font-size:45px;
+                        margin: unset;
+                        text-align: center;
+            }
+            .otros-proyectos{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                margin-top: 50px;
+                img{
+                    width: 250px;
+                    height: 250px;
+                    border-radius: 360px;
+                    
+                }
+            }
+        }
+        #contacto{
+            margin-top: 200px;
+            h4{
+                color: rgb(222,222,222);
+                        font-weight: 600px;
+                        font-size:45px;
+                        margin: unset;
+                        text-align: center;
+            }
+            #contacto-interno{
+                display: flex;
+                flex-direction: column;
+               
+                border: rgb(138,138,138) 1px solid;
+                width: auto;
+                height: auto;
+                border-radius: 20px;
+                padding: 40px 100px;
+                margin-top: 40px;
+
+                .nombre-y-email{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    .nombre{
+                        p{
+                            color:white
+                        }
+                    }
+                    .email{
+                        margin-left: 50px;
+                        p{
+                            color:white
+                        }
+                    }
+                }
+                .mensaje{
+                    p{
+                        color:white
+                    }
+                    input{
+                        width: 100%;
+                        height: 150px;
+                        text-align: start;
+                        
+                    }
+                }
+                a{
+                    display: flex;
+                    color:white;
+                    padding: 5px;
+                    border: rgb(138,138,138) 1px solid;
+                    border-radius: 10px;
+                    width: 80px;
+                    justify-content: center;
+                    text-decoration: none;
+                    margin-top: 20px;
+                    margin-left: 310px;
 
                 }
             }

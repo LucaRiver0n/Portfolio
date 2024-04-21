@@ -13,6 +13,13 @@ body{
                     color: rgb(226,226,226);
                     margin-left: 20px;
                     font-size: 16px;
+                    padding: 5px;
+                    border-radius: 10px;
+                    transition: 1s ease;
+                    &:hover{
+                        text-decoration: underline;
+                        transition: 1s ease;
+                    }
                     }
                 }
                 .boton-cv{
@@ -24,6 +31,12 @@ body{
                         border: white 1px solid;
                         border-radius: 5px;
                         font-size: 16px;
+                        transition: 0.5s ease;
+                        &:hover{
+                            background-color: aliceblue;
+                            color: black;
+                            transition: 0.5s ease;
+                        }
                     }
             }
         }
