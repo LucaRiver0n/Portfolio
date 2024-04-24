@@ -2,14 +2,16 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="./css/main.css">
+        <link rel="icon" type="image/jpg" href="./media/favicon.png"/>
         <title>Luca Riveron</title>
     </head>
     <body>
         <header>
             <nav>
                 <div class="barra-de-navegacion">
-                    <a href="#">Inicio</a>
+                    <a href="#inicio">Inicio</a>
                     <a href="#sobree">Sobre Mi</a>
                     <a href="#proyectos">Proyectos</a>
                     <a href="#contacto">Contacto</a>
@@ -47,7 +49,8 @@
 
  <!-- --------------------------------- SECCION SOBRE MI  --------------------------- -->
 
-            <section id="sobre-mi">
+            <section id="sobre-mi" data-aos="fade-up"
+            data-aos-duration="3000">
                 <div class="textos-de-sobre-mi">
                     <div class="titulo-sobre-mi">
                         <h3>Sobre Mi</h3>
@@ -100,7 +103,8 @@
             </section>
         
              <!-- --------------------------------- SECCION DEL PROYECTOS --------------------------- -->
-             <section id="proyectos">
+             <section id="proyectos" data-aos="fade-up"
+             data-aos-duration="3000">
                 <h3>Proyectos Destacados</h3>
                 <div class="proyecto1">
                     <div class="textos">
@@ -148,7 +152,7 @@
              </section>
 
              <!-- --------------------------------- SECCION DE OTROS PROYECTOS --------------------------- -->
-             <section id="otrosProyectos">
+             <section id="otrosProyectos" data-aos="zoom-in">
                 <h4>Otros Proyectos</h4>
                 <div class="otros-proyectos">
                     <img src="./media/a17da946fef7f7f52e4f5c344c601b8d5e0eff4db388b90fd1b9816ec470c1f91643733069291.jpg" alt="">
@@ -183,5 +187,9 @@
         <footer>
 
         </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
     </body>
 </html>
