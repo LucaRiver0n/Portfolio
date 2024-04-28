@@ -1,8 +1,10 @@
 body{
     header{
+       
         nav{
             display: flex;
             flex-direction: row;
+            flex-wrap: wrap;
             justify-content: flex-end;
             margin-top: 3%;
             margin-right: 60px;

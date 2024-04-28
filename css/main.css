@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap");
 html {
   scroll-behavior: smooth;
@@ -11,6 +12,7 @@ html body {
 body header nav {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: flex-end;
   margin-top: 3%;
   margin-right: 60px;
@@ -57,12 +59,13 @@ body main #inicio {
 body main #inicio .textos-del-inicio .titulo h1 {
   color: rgb(250, 250, 255);
   font-size: 100px;
+  margin-top: 50px;
 }
 body main #inicio .textos-del-inicio .titulo h2 {
   color: rgb(78, 78, 78);
   font-weight: 500;
   font-size: 40px;
-  margin-top: -100px;
+  margin-top: -20px;
 }
 body main #inicio .textos-del-inicio .texto-inicio p {
   max-width: 700px;
@@ -97,7 +100,6 @@ body main #inicio #sobree {
 body main #sobre-mi {
   display: flex;
   width: 1100px;
-  height: 350px;
   margin-top: 200px;
   border: rgb(138, 138, 138) 1px solid;
   border-radius: 20px;
@@ -113,7 +115,7 @@ body main #sobre-mi .textos-de-sobre-mi .titulo-sobre-mi h3 {
   margin: unset;
 }
 body main #sobre-mi .textos-de-sobre-mi .informacion-sobre-mi p {
-  margin-top: 20px;
+  margin-top: 0px;
   color: rgb(138, 138, 138);
   font-size: 16px;
 }
@@ -318,6 +320,331 @@ body main #contacto #contacto-interno a {
   text-decoration: none;
   margin-top: 20px;
   margin-left: 310px;
+}
+
+/* iPhone - Orientación: Vertical */
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+  body header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 3%;
+  }
+  body header nav .barra-de-navegacion {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+  }
+  body header nav .barra-de-navegacion a {
+    margin-top: 30px;
+    margin-left: unset;
+    justify-content: space-between;
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s ease;
+    width: 60px;
+    text-align: center;
+  }
+  body header nav .boton-cv a {
+    display: flex;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -25px;
+    padding: 4px 10px;
+    font-size: 13px;
+  }
+  body main {
+    align-items: center;
+    flex-direction: column;
+  }
+  body main #inicio {
+    flex-direction: column-reverse;
+    height: 600px;
+    width: 300px;
+    margin-left: -160px;
+    margin-top: 90px;
+  }
+  body main #inicio .textos-del-inicio .titulo {
+    width: 200px;
+    justify-content: center;
+    margin-left: 30px;
+  }
+  body main #inicio .textos-del-inicio .titulo h1 {
+    font-size: 50px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  body main #inicio .textos-del-inicio .titulo h2 {
+    font-size: 20px;
+    margin-top: -40px;
+    text-align: center;
+  }
+  body main #inicio .textos-del-inicio .texto-inicio {
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+  body main #inicio .textos-del-inicio .texto-inicio p {
+    font-size: 14px;
+    color: rgb(138, 138, 138);
+    width: 150px;
+    text-align: center;
+  }
+  body main #inicio .textos-del-inicio .iconos-de-inicio {
+    margin-left: 80px;
+  }
+  body main #inicio .textos-del-inicio .iconos-de-inicio a {
+    justify-content: center;
+  }
+  body main #inicio .textos-del-inicio .iconos-de-inicio a img {
+    z-index: 2;
+    height: 30px;
+    width: 30px;
+    transition: 0.2s ease;
+  }
+  body main #inicio .textos-del-inicio .iconos-de-inicio a img:hover {
+    transition: 0.2s ease;
+    transform: scale(1.1);
+  }
+  body main #inicio .textos-del-inicio .iconos-de-inicio a .segunda-imagen {
+    margin-left: 15px;
+  }
+  body main #inicio .foto-de-inicio img {
+    width: 250px;
+    height: 250px;
+    border-radius: 180px;
+    margin-left: unset;
+    margin-top: 100px;
+  }
+  body main #inicio #sobree {
+    width: 10px;
+    height: 10px;
+    margin-top: 500px;
+  }
+  body main #sobre-mi {
+    display: flex;
+    width: 1100px;
+    margin-top: 200px;
+    border: rgb(138, 138, 138) 1px solid;
+    border-radius: 20px;
+    padding: 30px;
+  }
+  body main #sobre-mi .textos-de-sobre-mi {
+    max-width: 450px;
+  }
+  body main #sobre-mi .textos-de-sobre-mi .titulo-sobre-mi h3 {
+    color: rgb(222, 222, 222);
+    font-weight: 600px;
+    font-size: 60px;
+    margin: unset;
+  }
+  body main #sobre-mi .textos-de-sobre-mi .informacion-sobre-mi p {
+    margin-top: 0px;
+    color: rgb(138, 138, 138);
+    font-size: 16px;
+  }
+  body main #sobre-mi .tecnologias {
+    margin-left: 60px;
+  }
+  body main #sobre-mi .tecnologias h3 {
+    color: rgb(222, 222, 222);
+    font-weight: 600px;
+    font-size: 60px;
+    margin: unset;
+    margin-left: 90px;
+  }
+  body main #sobre-mi .tecnologias p {
+    font-weight: 400;
+    color: rgb(78, 78, 78);
+    font-size: 14px;
+    max-width: 350px;
+    text-align: center;
+    margin-left: 70px;
+  }
+  body main #sobre-mi .tecnologias .imagenes-tecnologia {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -30px;
+    margin-left: 10px;
+    max-width: 500px;
+  }
+  body main #sobre-mi .tecnologias .imagenes-tecnologia .html img {
+    height: 40px;
+    width: 90px !important;
+  }
+  body main #sobre-mi .tecnologias .imagenes-tecnologia .boostrap img {
+    height: 50px;
+    width: 50px !important;
+  }
+  body main #sobre-mi .tecnologias .imagenes-tecnologia .imagenes {
+    display: flex;
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    margin-left: 35px;
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body main #sobre-mi .tecnologias .imagenes-tecnologia .imagenes img {
+    height: 50px;
+    width: 50px;
+  }
+  body main #proyectos {
+    margin-top: 250px;
+  }
+  body main #proyectos h3 {
+    color: rgb(222, 222, 222);
+    font-weight: 600px;
+    font-size: 60px;
+    margin: unset;
+  }
+  body main #proyectos .proyecto1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1100px;
+    height: 280px;
+    border: rgb(138, 138, 138) 1px solid;
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: 20px;
+  }
+  body main #proyectos .proyecto1 .textos {
+    width: 450px;
+  }
+  body main #proyectos .proyecto1 .textos h4 {
+    color: rgb(222, 222, 222);
+    font-weight: 600px;
+    font-size: 45px;
+    margin: unset;
+  }
+  body main #proyectos .proyecto1 .textos .proyecto2 {
+    font-size: 40px;
+  }
+  body main #proyectos .proyecto1 .textos p {
+    margin-top: 20px;
+    color: rgb(138, 138, 138);
+    font-size: 16px;
+  }
+  body main #proyectos .proyecto1 .textos a {
+    color: rgb(185, 185, 185);
+  }
+  body main #proyectos .proyecto1 .textos .gh {
+    margin-left: 10px;
+  }
+  body main #proyectos .proyecto1 .textos .tecnologias-trabajadas-proyecto1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+  }
+  body main #proyectos .proyecto1 .textos .tecnologias-trabajadas-proyecto1 p {
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 12px;
+    color: white;
+  }
+  body main #proyectos .proyecto1 .textos .tecnologias-trabajadas-proyecto1 .tx {
+    margin-left: 10px;
+  }
+  body main #proyectos .proyecto1 .textos .tecnologias-trabajadas-proyecto1 .blue {
+    background-color: rgb(67, 67, 236);
+  }
+  body main #proyectos .proyecto1 .textos .tecnologias-trabajadas-proyecto1 .orange {
+    background-color: rgb(235, 134, 53);
+  }
+  body main #proyectos .proyecto1 .textos .tecnologias-trabajadas-proyecto1 .yellow {
+    background-color: rgb(190, 133, 27);
+  }
+  body main #proyectos .imagen-del-proyecto1 {
+    display: flex;
+    justify-content: flex-end;
+  }
+  body main #proyectos .imagen-del-proyecto1 img {
+    border-radius: 20px;
+    margin-left: 30px;
+    width: 500px;
+  }
+  body main #otrosProyectos {
+    display: flex;
+    margin-top: 150px;
+    flex-direction: column;
+    width: 1100px;
+  }
+  body main #otrosProyectos h4 {
+    color: rgb(222, 222, 222);
+    font-weight: 600px;
+    font-size: 45px;
+    margin: unset;
+    text-align: center;
+  }
+  body main #otrosProyectos .otros-proyectos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+  body main #otrosProyectos .otros-proyectos img {
+    width: 250px;
+    height: 250px;
+    border-radius: 360px;
+  }
+  body main #contacto {
+    margin-top: 200px;
+  }
+  body main #contacto h4 {
+    color: rgb(222, 222, 222);
+    font-weight: 600px;
+    font-size: 45px;
+    margin: unset;
+    text-align: center;
+  }
+  body main #contacto #contacto-interno {
+    display: flex;
+    flex-direction: column;
+    border: rgb(138, 138, 138) 1px solid;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    padding: 40px 100px;
+    margin-top: 40px;
+  }
+  body main #contacto #contacto-interno .nombre-y-email {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  body main #contacto #contacto-interno .nombre-y-email .nombre p {
+    color: white;
+  }
+  body main #contacto #contacto-interno .nombre-y-email .email {
+    margin-left: 50px;
+  }
+  body main #contacto #contacto-interno .nombre-y-email .email p {
+    color: white;
+  }
+  body main #contacto #contacto-interno .mensaje p {
+    color: white;
+  }
+  body main #contacto #contacto-interno .mensaje input {
+    width: 100%;
+    height: 150px;
+    text-align: start;
+  }
+  body main #contacto #contacto-interno a {
+    display: flex;
+    color: white;
+    padding: 5px;
+    border: rgb(138, 138, 138) 1px solid;
+    border-radius: 10px;
+    width: 80px;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 310px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,1 +1,384 @@
-@media (min-width: 1025px) and (max-width: 1200px){}
+/* iPhone - Orientación: Vertical */
+@media screen and (max-device-width: 480px) and (orientation:portrait) { 
+    body{
+        header{
+            nav{
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                margin-top: 3%;
+                
+                .barra-de-navegacion{
+                    display: flex;
+                    flex-direction: row;
+                    width: 500px;
+                    a{
+                        margin-top: 30px;
+                        margin-left: unset;
+                        justify-content: space-between;
+                        font-size: 13px;
+                        padding: 5px;
+                        border-radius: 10px;
+                        transition: 1s ease;
+                        width: 60px;
+                        text-align: center;
+                        }
+                    }
+                    .boton-cv{
+                        a{
+                            display: flex;
+                            position: absolute;
+                            margin-left: 10px; 
+                            margin-top: -25px;
+                            padding: 4px 10px;
+                            font-size: 13px;
+                        }
+                }
+            }
+        }
+
+        // PARTE DEL INDEX ----------------------------------------------------
+
+
+
+        main{
+            align-items: center;
+            flex-direction: column;
+            #inicio{
+                flex-direction: column-reverse;
+                height: 600px;
+                width: 300px;
+                margin-left: -160px;
+                margin-top: 90px;
+                .textos-del-inicio{
+                .titulo{
+                    width: 200px;
+                    justify-content: center;
+                    margin-left: 30px;
+                    h1{
+                        font-size: 50px;
+                        margin-top: 30px;
+                        text-align: center;
+                        
+                        }
+                        h2{
+                        font-size: 20px;
+                        margin-top: -40px;
+                        text-align: center;
+                        }
+                    }
+                    .texto-inicio{
+                        margin-top: 50px;
+                        margin-left: 50px;
+                        p{
+                            font-size: 14px;
+                            color: rgb(138,138,138);
+                            width: 150px;
+                            text-align: center;
+                           
+                        }
+                    }
+                    .iconos-de-inicio{
+                        
+                        margin-left: 80px;
+                     a{ 
+                        justify-content: center;
+                        img{
+                            z-index: 2;
+                            height: 30px;
+                            width: 30px;
+                            transition: 0.2s ease;
+                            &:hover{
+                                transition: 0.2s ease;
+                                transform: scale(1.1);
+                            }
+                            
+    
+                        }
+                        
+                        .segunda-imagen{
+                            margin-left: 15px;
+                                                    
+                        }
+                    }
+                }
+                    
+                }
+                .foto-de-inicio{
+                    img{
+                        width: 250px;
+                        height: 250px;
+                        border-radius: 180px;
+                        margin-left: unset;
+                        margin-top: 100px;
+                    }
+                }
+                #sobree{
+                    width: 10px;
+                    height: 10px;
+                    margin-top: 500px;
+                }
+            }
+    
+            // -----SEGUNDA PARTE DE LA PAGINA (SOBRE MI) ------------------------------------
+            #sobre-mi{
+                display: flex;
+                width: 1100px;
+                margin-top: 200px;
+                border: rgb(138,138,138) 1px solid;
+                border-radius: 20px;
+                padding: 30px;
+               
+    
+                .textos-de-sobre-mi{
+                    max-width: 450px;
+                    .titulo-sobre-mi{
+                        h3{
+                            color: rgb(222,222,222);
+                            font-weight: 600px;
+                            font-size:60px;
+                            margin: unset;
+                        }
+                    }
+                    .informacion-sobre-mi{
+                        p{
+                            margin-top: 0px;
+                            color: rgb(138,138,138);
+                            font-size: 16px;
+                            
+                        }
+                    }
+                }
+                
+                .tecnologias{
+                    margin-left: 60px;
+                    h3{
+                        color: rgb(222,222,222);
+                            font-weight: 600px;
+                            font-size:60px;
+                            margin: unset;
+                            margin-left: 90px;
+                    }
+                    p{
+                        font-weight: 400;
+                        color: rgb(78, 78, 78);
+                        font-size: 14px;
+                        max-width: 350px;
+                        text-align: center;
+                        margin-left: 70px;
+                        
+                    }
+                    .imagenes-tecnologia{
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin-top: -30px;
+                        margin-left: 10px;
+                        max-width: 500px;
+                        
+                        .html{
+                            img{
+                                height: 40px;
+                                 width: 90px !important;
+                            }
+                        }
+                        .boostrap{
+                            img{
+                                height: 50px;
+                                 width: 50px !important;
+                            }
+                        }
+                        .imagenes{
+                            display: flex;
+                            background-color: white;
+                            width: 80px;
+                            height: 80px;
+                            border-radius: 10px;
+                            margin-left: 35px;
+                            margin-top: 30px;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+                            img{
+                                height: 50px;
+                                width: 50px;
+                                
+                                
+                            }
+                        }
+                    }
+                    
+                }
+    
+            }
+    // -----TERCERA PARTE DE LA PAGINA (PROYECTOS) -------------------------
+            #proyectos{
+                margin-top: 250px;
+                h3{
+                    color: rgb(222,222,222);
+                            font-weight: 600px;
+                            font-size:60px;
+                            margin: unset;
+                }
+                .proyecto1{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    width: 1100px;
+                    height: 280px;
+                    border: rgb(138,138,138) 1px solid;
+                    margin-top: 50px;
+                    border-radius: 20px;
+                    padding: 20px;
+                    .textos{
+                        width: 450px;
+                        h4{
+                            color: rgb(222,222,222);
+                            font-weight: 600px;
+                            font-size:45px;
+                            margin: unset;
+                        }
+                        .proyecto2{
+                            font-size: 40px;
+                        }
+                        p{
+                            margin-top: 20px;
+                            color: rgb(138,138,138);
+                            font-size: 16px;
+                        }
+                        a{
+                            color: rgb(185, 185, 185);
+                        }
+                        .gh{
+                            margin-left: 10px;
+                        }
+                        .tecnologias-trabajadas-proyecto1{
+                            display: flex;
+                            flex-direction: row;
+                            margin-top: 30px;
+                            p{
+                                padding: 5px;
+                                border-radius: 10px;
+                                font-size: 12px;
+                                color:white;
+                            }
+                            .tx{
+                                margin-left: 10px;
+                            }
+                          
+                      // --------------colores de las tecnologias (etiquetas)----
+                      .blue{
+                        background-color: rgb(67, 67, 236)
+                      }
+                      .orange{
+                        background-color: rgb(235, 134, 53)
+                      }
+                      .yellow{
+                        background-color: rgb(190, 133, 27)
+                      }
+                        }
+                    }
+                }
+                .imagen-del-proyecto1{
+                    display: flex;
+                    justify-content: flex-end;
+                    
+                    img{
+                        border-radius: 20px;
+                        margin-left: 30px;
+                        width: 500px;
+                        
+    
+                    }
+                }
+            }
+            #otrosProyectos{
+                display: flex;
+                margin-top: 150px;
+                flex-direction: column;
+                width: 1100px;
+                h4{
+                    color: rgb(222,222,222);
+                            font-weight: 600px;
+                            font-size:45px;
+                            margin: unset;
+                            text-align: center;
+                }
+                .otros-proyectos{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    margin-top: 50px;
+                    img{
+                        width: 250px;
+                        height: 250px;
+                        border-radius: 360px;
+                        
+                    }
+                }
+            }
+            #contacto{
+                margin-top: 200px;
+                h4{
+                    color: rgb(222,222,222);
+                            font-weight: 600px;
+                            font-size:45px;
+                            margin: unset;
+                            text-align: center;
+                }
+                #contacto-interno{
+                    display: flex;
+                    flex-direction: column;
+                   
+                    border: rgb(138,138,138) 1px solid;
+                    width: auto;
+                    height: auto;
+                    border-radius: 20px;
+                    padding: 40px 100px;
+                    margin-top: 40px;
+    
+                    .nombre-y-email{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        .nombre{
+                            p{
+                                color:white
+                            }
+                        }
+                        .email{
+                            margin-left: 50px;
+                            p{
+                                color:white
+                            }
+                        }
+                    }
+                    .mensaje{
+                        p{
+                            color:white
+                        }
+                        input{
+                            width: 100%;
+                            height: 150px;
+                            text-align: start;
+                            
+                        }
+                    }
+                    a{
+                        display: flex;
+                        color:white;
+                        padding: 5px;
+                        border: rgb(138,138,138) 1px solid;
+                        border-radius: 10px;
+                        width: 80px;
+                        justify-content: center;
+                        text-decoration: none;
+                        margin-top: 20px;
+                        margin-left: 310px;
+    
+                    }
+                }
+            }
+        }
+    }
+
+} 
