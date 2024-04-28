@@ -49,31 +49,33 @@
                 height: 600px;
                 width: 300px;
                 margin-left: -160px;
-                margin-top: 90px;
+                margin-top: unset;
+
                 .textos-del-inicio{
                 .titulo{
-                    width: 200px;
+                    width: 300px;
                     justify-content: center;
-                    margin-left: 30px;
+                    margin-left: -20px;
                     h1{
-                        font-size: 50px;
-                        margin-top: 30px;
+                        font-size: 40px;
+                        margin-top: unset;
+                        margin-bottom: 50px;
                         text-align: center;
                         
                         }
                         h2{
                         font-size: 20px;
-                        margin-top: -40px;
+                        margin-top: -50px;
                         text-align: center;
                         }
                     }
                     .texto-inicio{
-                        margin-top: 50px;
-                        margin-left: 50px;
+                        margin-top: 25px;
+                        margin-left: -25px;
                         p{
                             font-size: 14px;
                             color: rgb(138,138,138);
-                            width: 150px;
+                            width: 300px;
                             text-align: center;
                            
                         }
@@ -105,12 +107,14 @@
                     
                 }
                 .foto-de-inicio{
+                    width: 250px;
+                    height: 250px;
                     img{
                         width: 250px;
                         height: 250px;
                         border-radius: 180px;
                         margin-left: unset;
-                        margin-top: 100px;
+                        margin-top: -300px;
                     }
                 }
                 #sobree{

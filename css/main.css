@@ -364,31 +364,32 @@ body main #contacto #contacto-interno a {
     height: 600px;
     width: 300px;
     margin-left: -160px;
-    margin-top: 90px;
+    margin-top: unset;
   }
   body main #inicio .textos-del-inicio .titulo {
-    width: 200px;
+    width: 300px;
     justify-content: center;
-    margin-left: 30px;
+    margin-left: -20px;
   }
   body main #inicio .textos-del-inicio .titulo h1 {
-    font-size: 50px;
-    margin-top: 30px;
+    font-size: 40px;
+    margin-top: unset;
+    margin-bottom: 50px;
     text-align: center;
   }
   body main #inicio .textos-del-inicio .titulo h2 {
     font-size: 20px;
-    margin-top: -40px;
+    margin-top: -50px;
     text-align: center;
   }
   body main #inicio .textos-del-inicio .texto-inicio {
-    margin-top: 50px;
-    margin-left: 50px;
+    margin-top: 25px;
+    margin-left: -25px;
   }
   body main #inicio .textos-del-inicio .texto-inicio p {
     font-size: 14px;
     color: rgb(138, 138, 138);
-    width: 150px;
+    width: 300px;
     text-align: center;
   }
   body main #inicio .textos-del-inicio .iconos-de-inicio {
@@ -410,12 +411,16 @@ body main #contacto #contacto-interno a {
   body main #inicio .textos-del-inicio .iconos-de-inicio a .segunda-imagen {
     margin-left: 15px;
   }
+  body main #inicio .foto-de-inicio {
+    width: 250px;
+    height: 250px;
+  }
   body main #inicio .foto-de-inicio img {
     width: 250px;
     height: 250px;
     border-radius: 180px;
     margin-left: unset;
-    margin-top: 100px;
+    margin-top: -300px;
   }
   body main #inicio #sobree {
     width: 10px;
