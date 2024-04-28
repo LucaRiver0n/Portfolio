@@ -9,11 +9,13 @@ body{
             flex-direction: row;
             
             .textos-del-inicio{
+                
             .titulo{
                 h1{
                     color: rgb(250,250,255 );
                     font-size: 100px;
                     margin-top: 50px;
+                    margin-bottom: unset;
                     }
                     h2{
                     color: rgb(78, 78, 78);
