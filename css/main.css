@@ -429,25 +429,29 @@ body main #contacto #contacto-interno a {
   }
   body main #sobre-mi {
     display: flex;
-    width: 1100px;
+    flex-direction: column;
+    width: 300px;
     margin-top: 200px;
+    margin-left: -210px;
     border: rgb(138, 138, 138) 1px solid;
     border-radius: 20px;
-    padding: 30px;
+    padding: 20px;
   }
   body main #sobre-mi .textos-de-sobre-mi {
-    max-width: 450px;
+    max-width: 300px;
   }
   body main #sobre-mi .textos-de-sobre-mi .titulo-sobre-mi h3 {
     color: rgb(222, 222, 222);
     font-weight: 600px;
-    font-size: 60px;
+    font-size: 40px;
     margin: unset;
+    text-align: center;
   }
   body main #sobre-mi .textos-de-sobre-mi .informacion-sobre-mi p {
     margin-top: 0px;
     color: rgb(138, 138, 138);
-    font-size: 16px;
+    font-size: 14px;
+    text-align: center;
   }
   body main #sobre-mi .tecnologias {
     margin-left: 60px;
@@ -455,9 +459,9 @@ body main #contacto #contacto-interno a {
   body main #sobre-mi .tecnologias h3 {
     color: rgb(222, 222, 222);
     font-weight: 600px;
-    font-size: 60px;
-    margin: unset;
-    margin-left: 90px;
+    font-size: 40px;
+    margin-left: -20px;
+    margin-top: 10px;
   }
   body main #sobre-mi .tecnologias p {
     font-weight: 400;
@@ -465,13 +469,13 @@ body main #contacto #contacto-interno a {
     font-size: 14px;
     max-width: 350px;
     text-align: center;
-    margin-left: 70px;
+    margin-left: -50px;
   }
   body main #sobre-mi .tecnologias .imagenes-tecnologia {
     display: flex;
     flex-wrap: wrap;
     margin-top: -30px;
-    margin-left: 10px;
+    margin-left: -40px;
     max-width: 500px;
   }
   body main #sobre-mi .tecnologias .imagenes-tecnologia .html img {
@@ -499,20 +503,22 @@ body main #contacto #contacto-interno a {
     width: 50px;
   }
   body main #proyectos {
+    margin-left: -210px;
     margin-top: 250px;
   }
   body main #proyectos h3 {
     color: rgb(222, 222, 222);
     font-weight: 600px;
-    font-size: 60px;
+    font-size: 40px;
     margin: unset;
+    text-align: center;
   }
   body main #proyectos .proyecto1 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     justify-content: space-between;
-    width: 1100px;
-    height: 280px;
+    width: 300px;
+    height: 500px;
     border: rgb(138, 138, 138) 1px solid;
     margin-top: 50px;
     border-radius: 20px;
@@ -524,30 +530,38 @@ body main #contacto #contacto-interno a {
   body main #proyectos .proyecto1 .textos h4 {
     color: rgb(222, 222, 222);
     font-weight: 600px;
-    font-size: 45px;
-    margin: unset;
+    font-size: 30px;
+    margin-left: -150px;
+    text-align: center;
   }
   body main #proyectos .proyecto1 .textos .proyecto2 {
-    font-size: 40px;
+    font-size: 30px;
+    text-align: center;
   }
   body main #proyectos .proyecto1 .textos p {
-    margin-top: 20px;
+    margin-top: 14px;
     color: rgb(138, 138, 138);
-    font-size: 16px;
+    font-size: 14px;
+    text-align: center;
+    width: 280px;
+    margin-left: 10px;
   }
   body main #proyectos .proyecto1 .textos a {
     color: rgb(185, 185, 185);
+    font-size: 14px;
+    margin-left: 25px;
   }
   body main #proyectos .proyecto1 .textos .gh {
-    margin-left: 10px;
+    margin-left: 30px;
   }
   body main #proyectos .proyecto1 .textos .tecnologias-trabajadas-proyecto1 {
     display: flex;
     flex-direction: row;
     margin-top: 30px;
+    margin-left: 30px;
   }
   body main #proyectos .proyecto1 .textos .tecnologias-trabajadas-proyecto1 p {
-    padding: 5px;
+    width: 40px;
     border-radius: 10px;
     font-size: 12px;
     color: white;
@@ -563,6 +577,7 @@ body main #contacto #contacto-interno a {
   }
   body main #proyectos .proyecto1 .textos .tecnologias-trabajadas-proyecto1 .yellow {
     background-color: rgb(190, 133, 27);
+    width: 80px;
   }
   body main #proyectos .imagen-del-proyecto1 {
     display: flex;
@@ -571,30 +586,34 @@ body main #contacto #contacto-interno a {
   body main #proyectos .imagen-del-proyecto1 img {
     border-radius: 20px;
     margin-left: 30px;
-    width: 500px;
+    width: 300px;
   }
   body main #otrosProyectos {
     display: flex;
     margin-top: 150px;
     flex-direction: column;
-    width: 1100px;
+    flex-wrap: wrap;
+    width: 300px;
+    margin-left: -200px;
   }
   body main #otrosProyectos h4 {
     color: rgb(222, 222, 222);
     font-weight: 600px;
-    font-size: 45px;
+    font-size: 40px;
     margin: unset;
     text-align: center;
   }
   body main #otrosProyectos .otros-proyectos {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     margin-top: 50px;
+    height: 700px;
+    align-items: center;
   }
   body main #otrosProyectos .otros-proyectos img {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 360px;
   }
   body main #contacto {

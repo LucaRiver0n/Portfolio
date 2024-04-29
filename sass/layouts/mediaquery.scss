@@ -127,28 +127,33 @@
             // -----SEGUNDA PARTE DE LA PAGINA (SOBRE MI) ------------------------------------
             #sobre-mi{
                 display: flex;
-                width: 1100px;
+                flex-direction: column;
+                width: 300px;
                 margin-top: 200px;
+                margin-left: -210px;
                 border: rgb(138,138,138) 1px solid;
                 border-radius: 20px;
-                padding: 30px;
+                padding: 20px;
                
     
                 .textos-de-sobre-mi{
-                    max-width: 450px;
+                    max-width: 300px;
                     .titulo-sobre-mi{
                         h3{
                             color: rgb(222,222,222);
                             font-weight: 600px;
-                            font-size:60px;
+                            font-size:40px;
                             margin: unset;
+                            text-align: center;
+                            
                         }
                     }
                     .informacion-sobre-mi{
                         p{
                             margin-top: 0px;
                             color: rgb(138,138,138);
-                            font-size: 16px;
+                            font-size: 14px;
+                            text-align: center;
                             
                         }
                     }
@@ -159,9 +164,10 @@
                     h3{
                         color: rgb(222,222,222);
                             font-weight: 600px;
-                            font-size:60px;
-                            margin: unset;
-                            margin-left: 90px;
+                            font-size: 40px;
+                           margin-left: -20px;
+                           margin-top: 10px;
+                            
                     }
                     p{
                         font-weight: 400;
@@ -169,14 +175,14 @@
                         font-size: 14px;
                         max-width: 350px;
                         text-align: center;
-                        margin-left: 70px;
+                        margin-left: -50px;
                         
                     }
                     .imagenes-tecnologia{
                         display: flex;
                         flex-wrap: wrap;
                         margin-top: -30px;
-                        margin-left: 10px;
+                        margin-left: -40px;
                         max-width: 500px;
                         
                         .html{
@@ -216,19 +222,21 @@
             }
     // -----TERCERA PARTE DE LA PAGINA (PROYECTOS) -------------------------
             #proyectos{
+                margin-left: -210px;
                 margin-top: 250px;
                 h3{
                     color: rgb(222,222,222);
                             font-weight: 600px;
-                            font-size:60px;
+                            font-size:40px;
                             margin: unset;
+                            text-align: center;
                 }
                 .proyecto1{
                     display: flex;
-                    flex-direction: row;
+                    flex-direction: column-reverse;
                     justify-content: space-between;
-                    width: 1100px;
-                    height: 280px;
+                    width: 300px;
+                    height: 500px;
                     border: rgb(138,138,138) 1px solid;
                     margin-top: 50px;
                     border-radius: 20px;
@@ -238,29 +246,42 @@
                         h4{
                             color: rgb(222,222,222);
                             font-weight: 600px;
-                            font-size:45px;
-                            margin: unset;
+                            font-size:30px;
+                            margin-left: -150px;
+                            text-align: center;
+                            
+                    
                         }
                         .proyecto2{
-                            font-size: 40px;
+                            font-size: 30px;
+                            text-align: center;
+                            
+                            
                         }
                         p{
-                            margin-top: 20px;
+                            margin-top: 14px;
                             color: rgb(138,138,138);
-                            font-size: 16px;
+                            font-size: 14px;
+                            text-align: center;
+                            width: 280px;
+                            margin-left: 10px;
                         }
                         a{
                             color: rgb(185, 185, 185);
+                            font-size: 14px;
+                            margin-left: 25px;
+                           
                         }
                         .gh{
-                            margin-left: 10px;
+                            margin-left: 30px;
                         }
                         .tecnologias-trabajadas-proyecto1{
                             display: flex;
                             flex-direction: row;
                             margin-top: 30px;
+                            margin-left: 30px;
                             p{
-                                padding: 5px;
+                                width: 40px;
                                 border-radius: 10px;
                                 font-size: 12px;
                                 color:white;
@@ -271,13 +292,14 @@
                           
                       // --------------colores de las tecnologias (etiquetas)----
                       .blue{
-                        background-color: rgb(67, 67, 236)
+                        background-color: rgb(67, 67, 236);
                       }
                       .orange{
-                        background-color: rgb(235, 134, 53)
+                        background-color: rgb(235, 134, 53);
                       }
                       .yellow{
-                        background-color: rgb(190, 133, 27)
+                        background-color: rgb(190, 133, 27);
+                        width: 80px;
                       }
                         }
                     }
@@ -289,7 +311,7 @@
                     img{
                         border-radius: 20px;
                         margin-left: 30px;
-                        width: 500px;
+                        width: 300px;
                         
     
                     }
@@ -299,22 +321,26 @@
                 display: flex;
                 margin-top: 150px;
                 flex-direction: column;
-                width: 1100px;
+                flex-wrap: wrap;
+                width: 300px;
+                margin-left: -200px;
                 h4{
                     color: rgb(222,222,222);
                             font-weight: 600px;
-                            font-size:45px;
+                            font-size:40px;
                             margin: unset;
                             text-align: center;
                 }
                 .otros-proyectos{
                     display: flex;
-                    flex-direction: row;
+                    flex-direction: column;
                     justify-content: space-around;
                     margin-top: 50px;
+                    height: 700px;
+                    align-items: center;
                     img{
-                        width: 250px;
-                        height: 250px;
+                        width: 200px;
+                        height: 200px;
                         border-radius: 360px;
                         
                     }
