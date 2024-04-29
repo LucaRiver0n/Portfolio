@@ -16,7 +16,7 @@ html{
                 .barra-de-navegacion{
                     display: flex;
                     flex-direction: row;
-                    width: 500px;
+                    width: 300px;
                     a{
                         margin-top: 30px;
                         margin-left: unset;
@@ -119,13 +119,13 @@ html{
                         height: 250px;
                         border-radius: 180px;
                         margin-left: unset;
-                        margin-top: -300px;
+                        margin-top: -50px;
                     }
                 }
                 #sobree{
                     width: 10px;
                     height: 10px;
-                    margin-top: 500px;
+                    margin-top: unset;
                 }
             }
     
@@ -247,13 +247,14 @@ html{
                     border-radius: 20px;
                     padding: 20px;
                     .textos{
-                        width: 450px;
+                        width: 300px;
                         h4{
                             color: rgb(222,222,222);
                             font-weight: 600px;
                             font-size:30px;
-                            margin-left: -150px;
+                            margin-left: unset;
                             text-align: center;
+                            width: 300px;
                             
                     
                         }
@@ -285,6 +286,7 @@ html{
                             flex-direction: row;
                             margin-top: 30px;
                             margin-left: 30px;
+                            width: 300px;
                             p{
                                 width: 40px;
                                 border-radius: 10px;
