@@ -1,6 +1,11 @@
 /* iPhone - Orientación: Vertical */
 @media screen and (max-device-width: 480px) and (orientation:portrait) { 
+html{
+
+
     body{
+        overflow-x: hidden;
+        width: auto;
         header{
             nav{
                 display: flex;
@@ -410,5 +415,5 @@
             }
         }
     }
-
+}
 } 
